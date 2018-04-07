@@ -1,0 +1,131 @@
+html, body {
+	margin: 0;
+	font-family: 'Chancery', sans-serif;
+	text-align: center;
+	font-size:
+	background-image: url("intro.svg");
+	background: linear-gradient(#FFDAF9,#DAE3FF,#DAFFFB,#DAFFE6,#FFE6DA,#FBFFDA);
+}
+@keyframes rainbow {
+	0% {background-color:#FFDAF9;}
+	14% {background-color: pink;}
+	28% {background-color: lightblue;}
+	42% {background-color: lightgreen;}
+	56% {background-color: pink;}
+	70% {background-color: lightblue;}
+	80% {background-color: lightgreen;}
+}
+@keyframes change {
+	0% {transform: translate(-100px);}
+	50% {transform: translate(100px);}
+	}
+
+#blue {
+	animation-name: rainbow;
+	animation-duration: 10s;
+}
+.dropbtn {
+	border: none;
+	font-size: 16px;
+	background-color:#FBFFDA;
+	color: black;
+	padding: 16px;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color:#FBFFDA;
+	min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+	       display: block;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+p {
+	color: blue
+}
+
+h1 {
+	/*TODO: Change the color of h1 text*/
+	color: black;
+	animation-name: change;
+	animation-duration: 10s;
+
+}
+
+img {
+	border-radius: 25px;
+	max-width: 100%;
+}
+
+.brown {
+	/*TODO: Change the color of text to brown*/\
+	color: brown
+}
+
+#page-wrapper {
+	padding: 0 10% 0 10%;
+}
+
+#page-wrapper > * {
+	padding: 50px;
+	margin: auto;#FBFFDA
+	height: auto;
+}
+
+
+#blue {
+
+}
+
+#doubleyellow {
+	display: inline-block;
+
+}
+
+#doubleyellow > img  {
+	width: 45%;
+	margin: 0 20px 0 20px;
+}
+
+#green {
+
+}
+
+#yellow {
+
+}
+
+#white {
+	/*TODO: Change the background color to white*/
+}
+
+#white > img {
+	width: 30.3%;
+}
+
+#content_holder {
+	display: inline-block;
+	/*TODO:; change the background color to green*/
+}
+
+.content {
+	width: 44.5%;
+	float: left;
+	margin: 2%;
+	border: 1px dashed orange;
+	padding: 5px;
+}
